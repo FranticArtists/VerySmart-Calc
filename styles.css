@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
+
+:root {
+    --index-min-height: 100vh;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    font-family: Inter, Helvetica, Arial, sans-serif;
+    min-height: 100vh;
+}
+
+header {
+    background-color: blue;
+    height: calc(var(--index-min-height) - 40em);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 2em;
+}
+
+#logo {
+    width: 20em;
+}
+
+main {
+    padding: 0 2em;
+    margin: 3em 0;
+}
+
+section {
+    padding: 0 2em;
+    margin: 3em 0;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Very Smart Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <img id='logo' src="img/verysmart-calc.svg" alt="VerySmart™ Calc logo">
+    </header>
+
+    <main>
+        <p>Enter two decimal machine numbers:</p>
+        <input id="firstNum" type="number" placeholder="">
+        <select name="operation" id="operation">
+            <option id="additionOperator" value="addition">+</option>
+            <option id="subtractionOperator" value="subtraction">−</option>
+            <option id="multiplicationOperator" value="multiplication">×</option>
+            <option id="divisionOperator" value="division">÷</option>
+        </select>
+        <input id="secondNum" type="number" placeholder="">
+
+        <button id="solveBtn" type="submit">Solve</button>
+    </main>
+
+    <section>
+        <p>Result:</p>
+        <p id="result"></p>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
