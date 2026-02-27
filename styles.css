@@ -20,7 +20,7 @@ html, body {
 
 header {
     background-color: blue;
-    border-radius: 50px;
+    border-radius: 75px;
     width: calc(var(--index-min-width) - 40em);
     display: flex;
     flex-direction: row;
@@ -68,7 +68,7 @@ input {
     border: none;
     border-radius: 25px;
     height: 25px;
-    padding: 0 0.5em;
+    padding: 0 1em;
 }
 
 #operation {
@@ -92,4 +92,10 @@ button {
     text-align: center;
     height: 25px;
     padding: 1em;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
 }

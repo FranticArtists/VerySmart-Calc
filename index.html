@@ -15,7 +15,7 @@
 
     <div id="wrapper">
         <section id="section1">
-            <h2>Perform Basic Operations</h2>
+            <h2>Basic Operations</h2>
             <fieldset>
                 <legend>Enter machine number:</legend>
                 <input id="firstNum" type="number" placeholder="First number">
@@ -42,7 +42,7 @@
                 </fieldset>
             </section>
             <button id="applyChopRoundBtn" type="submit">Apply Chop/Round</button>
-            <div id="resultContainer">
+            <div id="resultContainer" style="padding-top: 20px;">
                 <p><strong>Result:</strong> <span id="result"></span></p>
                 <p><strong>Absolute Error:</strong> <span id="absoluteErrorResult"></span></p>
                 <p><strong>Relative Error:</strong> <span id="relativeErrorResult"></span></p>
@@ -52,7 +52,7 @@
         </section>
 
         <section id="section3">
-            <h2>Evaluate Polynomial Functions</h2>
+            <h2>Polynomial Evaluation</h2>
             <fieldset>
                 <div class="input-divs">
                     <label for="polynomialFunction">Enter polynomial function:</label> <br />
@@ -64,9 +64,8 @@
                 </div>
             </fieldset>
             <button id="evaluatePolynomialBtn" type="submit">Evaluate</button>
-            <div>
-                <p>Result:</p>
-                <p id="polynomialResult"></p>
+            <div id="polynomialResultContainer" style="padding-top: 20px;">
+                <p><strong>Result:</strong> <span id="polynomialResult"></span></p>
             </div>
         </section>
     </div>
